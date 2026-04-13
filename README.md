@@ -56,10 +56,5 @@ jupyter notebook
 * Add real-time predictions
 * Improve model accuracy
 
-## 🤝 Contribution
-
-Feel free to fork and contribute!
-
----
 
 ⭐ If you like this project, give it a star!
