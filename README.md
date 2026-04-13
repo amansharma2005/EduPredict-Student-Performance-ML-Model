@@ -44,8 +44,8 @@ The dataset contains:
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/your-username/student-performance-ml.git
-cd student-performance-ml
+[git clone https://github.com/your-username/student-performance-ml.git](https://github.com/amansharma2005/EduPredict-Student-Performance-ML-Model.git)
+cd EduPredict-Student-Performance-ML-Model
 pip install -r requirements.txt
 jupyter notebook
 ```
