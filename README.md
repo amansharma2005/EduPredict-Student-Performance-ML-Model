@@ -7,8 +7,6 @@
 ![ML](https://img.shields.io/badge/Machine%20Learning-Model-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Made With](https://img.shields.io/badge/Made%20With-Scikit--Learn-orange)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 
 
 # 🎓 EduPredict – Student Performance Analysis & Prediction
