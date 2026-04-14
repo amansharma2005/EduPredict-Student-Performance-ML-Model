@@ -1,3 +1,16 @@
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-blueviolet)
+![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-f7931e?logo=scikit-learn&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![ML](https://img.shields.io/badge/Machine%20Learning-Model-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Made With](https://img.shields.io/badge/Made%20With-Scikit--Learn-orange)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
+
+
 # 🎓 EduPredict – Student Performance Analysis & Prediction
 
 ## 📌 Overview
