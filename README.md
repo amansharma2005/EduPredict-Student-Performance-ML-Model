@@ -2,37 +2,104 @@
 
 ## 📌 Overview
 
-This project focuses on analyzing student academic data and predicting their performance using Machine Learning techniques.
-It helps identify key factors like attendance, assignments, and quizzes that influence final scores.
+EduPredict is a Machine Learning project focused on analyzing student academic behavior and predicting their performance.
+The project explores how factors like attendance, study habits, assignments, and assessments influence final outcomes.
 
-## 🚀 Features
+This project goes beyond basic modeling by emphasizing **feature selection, data cleaning, and real-world interpretation of results**.
 
-* Data Cleaning & Preprocessing
-* Exploratory Data Analysis (EDA)
-* Feature Engineering
-* Machine Learning Model Training
-* Performance Evaluation (MAE, MSE, RMSE)
+---
 
-## 📊 Dataset
+## 🚀 Key Highlights
 
-The dataset contains:
+* Built a complete ML pipeline from raw data to evaluation
+* Identified and removed **data leakage issues**
+* Performed **feature selection for optimal performance**
+* Achieved significant improvement in model accuracy (R² from negative to ~0.64)
+* Visualized model performance using **Actual vs Predicted plots**
 
-* Student demographics
-* Attendance percentage
-* Midterm & final scores
-* Assignments and quizzes performance
+---
 
-## 🧠 ML Algorithms Used
+## 📊 Dataset Description
 
-* Linear Regression
-* Decision Tree (if used)
-* Random Forest (if used)
+The dataset includes multiple factors affecting student performance:
+
+### 🎯 Academic Features
+
+* Attendance (%)
+* Midterm Score
+* Assignments Average
+* Quizzes Average
+* Participation Score
+* Projects Score
+
+### 🧠 Behavioral Features
+
+* Study Hours per Week
+* Sleep Hours per Night
+* Stress Level
+
+### 👤 Demographic Features (optional)
+
+* Age
+* Gender
+* Department
+
+---
+
+## 🧹 Data Preprocessing
+
+* Removed irrelevant columns:
+
+  * Student_ID, Name, Email
+* Handled **data leakage** by removing:
+
+  * Total_Score, Grade
+* Cleaned and structured dataset for modeling
+* Selected meaningful features based on correlation and impact
+
+---
+
+## 🧠 Feature Engineering
+
+* Focused on **high-impact academic features**
+* Reduced noise by eliminating unnecessary columns
+* Experimented with different feature combinations to improve performance
+
+---
+
+## 🤖 Model Training
+
+* Used **Linear Regression** as baseline model
+* Applied train-test split (80/20)
+* Evaluated model performance using multiple metrics
+
+---
 
 ## 📈 Evaluation Metrics
 
-* Mean Absolute Error (MAE)
-* Mean Squared Error (MSE)
-* Root Mean Squared Error (RMSE)
+* Mean Absolute Error (MAE): ~3.8
+* Mean Squared Error (MSE): ~19.18
+* Root Mean Squared Error (RMSE): ~4.37
+* R² Score: ~0.64
+
+👉 Model improved significantly from poor performance to a stable predictive system
+
+---
+
+## 📊 Visualizations
+
+* 📈 Actual vs Predicted Scatter Plot
+* 📉 Residual Analysis
+* 📊 Correlation Heatmap
+* 📌 Feature Impact Analysis
+
+👉 These visualizations help in understanding:
+
+* Model accuracy
+* Error distribution
+* Feature relationships
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -41,20 +108,45 @@ The dataset contains:
 * Matplotlib, Seaborn
 * Scikit-learn
 
+---
+
 ## ▶️ How to Run
 
 ```bash
-[git clone https://github.com/your-username/student-performance-ml.git](https://github.com/amansharma2005/EduPredict-Student-Performance-ML-Model.git)
+git clone https://github.com/amansharma2005/EduPredict-Student-Performance-ML-Model.git
 cd EduPredict-Student-Performance-ML-Model
 pip install -r requirements.txt
 jupyter notebook
 ```
 
-## 📌 Future Improvements
+---
 
-* Deploy as a web app (Streamlit/Flask)
-* Add real-time predictions
-* Improve model accuracy
+## 📌 Key Learnings
 
+* Importance of **feature selection over model complexity**
+* Impact of **data leakage on model performance**
+* How to interpret ML results using visualization
+* Practical understanding of regression metrics
 
-⭐ If you like this project, give it a star!
+---
+
+## 🚀 Future Improvements
+
+* Implement Random Forest / XGBoost for better accuracy
+* Hyperparameter tuning
+* Deploy model using Streamlit
+* Build interactive dashboard
+* Add real-time prediction system
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a star ⭐
+
+---
+
+## 👨‍💻 Author
+
+Aman Sharma
+AI/ML/DS  Engineer
